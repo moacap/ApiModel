@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source_files  = "Source/**/*"
 
   s.requires_arc = true
-  s.dependency "Alamofire", "~> 4.0"
-  s.dependency "SwiftyJSON", "~> 3.1.0"
-  s.dependency "RealmSwift", "~> 2.4.3"
+  s.dependency "Alamofire", "~> 4.5.0"
+  s.dependency "SwiftyJSON", "~> 3.1.4"
+  s.dependency "RealmSwift", "~> 2.10.0"
 end
